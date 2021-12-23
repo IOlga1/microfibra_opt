@@ -1,0 +1,159 @@
+
+//  HTML для карточки товара и @mixin katalog_item
+// <div class="card_preview">
+// <img src="./img/img_catalog/salfetki/230-microfibra-mikrofibra-plotnaya-40-kupit-v-minske-deshevo-optom.jpg" alt="">
+// <p>Салфетка 40*40 см<br>(микрофибра 230г/м²)</p>
+// <p>(Упаковка 50шт)</p>
+// </div>
+
+@mixin katalog_item {
+    .card_preview{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        border-radius: 0 0 50px 0;
+        max-width: 230px;
+        transition: all 200ms ease-in-out;
+        >img{
+            max-width: 200px;
+        }
+        :nth-child(2){
+            font-family: 'Sousce Sans Pro', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            font-weight: 600;
+            color: rgb(46, 46, 46);
+        }
+        :nth-child(3){
+            font-family: 'Sousce Sans Pro', sans-serif;
+            font-size: 16px;
+            color: rgb(163, 163, 163);
+            text-align: center;
+            margin-top: -5px;
+        }
+        &:hover{
+            box-shadow: 5px 5px 50px 2px rgba(163, 163, 163, 0.397);
+        }
+    }
+
+    @media screen and (max-width: 920px){
+        .card_preview{
+            padding: 20px;
+            // padding: 40px;
+            >img{
+                max-width: 180px;
+                // max-width: 200px;
+            }
+            :nth-child(2){
+                font-size: 18px;
+                // font-size: 20px;
+            }
+            :nth-child(3){
+                margin-top: -12px;
+                // margin-top: -5px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 750px){
+        .card_preview{
+            // padding: 20px;
+            padding: 40px;
+            >img{
+                // max-width: 180px;
+                max-width: 250px;
+            }
+            :nth-child(2){
+                // font-size: 18px;
+                font-size: 20px;
+            }
+            :nth-child(3){
+                // margin-top: -12px;
+                margin-top: -5px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 700px){
+        .card_preview{
+            // padding: 20px;
+            // padding: 40px;
+            >img{
+                // max-width: 180px;
+                max-width: 200px;
+            }
+            :nth-child(2){
+                // font-size: 18px;
+                font-size: 18px;
+            }
+            :nth-child(3){
+                // margin-top: -12px;
+                margin-top: -5px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 600px){
+        .card_preview{
+            // padding: 20px;
+            // padding: 40px;
+            >img{
+                // max-width: 180px;
+                max-width: 150px;
+            }
+            :nth-child(2){
+                font-size: 16px;
+                // font-size: 18px;
+            }
+            :nth-child(3){
+                font-size: 12px;
+                // margin-top: -12px;
+                // margin-top: -5px;
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 500px){
+        .card_preview{
+            // padding: 20px;
+            // padding: 40px;
+            >img{
+                // max-width: 180px;
+                max-width: 110px;
+            }
+            :nth-child(2){
+                font-size: 15px;
+                // font-size: 18px;
+            }
+            :nth-child(3){
+                font-size: 12px;
+                // margin-top: -12px;
+                // margin-top: -5px;
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 400px){
+        .card_preview{
+            padding: 10px;
+            padding: 20px;
+            >img{
+                // max-width: 180px;
+                max-width: 100px;
+            }
+            :nth-child(2){
+                font-size: 14px;
+                // font-size: 18px;
+            }
+            :nth-child(3){
+                font-size: 12px;
+                // margin-top: -12px;
+                // margin-top: -5px;
+            }
+        }
+    }
+
+}

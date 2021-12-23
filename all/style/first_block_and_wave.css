@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Open+Sans:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+.first__block {
+  position: relative;
+  background-position: right 50% top 20%;
+  opacity: 0.8;
+  background-color: white;
+  color: black;
+  background-size: cover;
+  height: 450px;
+  z-index: 1;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.63);
+}
+.title :nth-child(1) {
+  margin-top: 20px;
+  font-size: 70px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.title :nth-child(2) {
+  font-size: 25px;
+  margin-top: -65px;
+}
+
+.wave__nav2 {
+  position: relative;
+  padding-left: 6px;
+  margin-top: -100px;
+  height: 150px;
+  background-image: url(../img/perehod_1600_150.png);
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  padding-top: 80px;
+}
+.wave__nav2 .second_nav__wraper {
+  display: flex;
+  background-color: #008522;
+  margin: 0 auto 0 auto;
+  max-width: 30%;
+  height: 60px;
+  align-items: center;
+  border-radius: 60px;
+  border: 3px solid white;
+  box-shadow: 0px 2px 25px rgba(15, 63, 13, 0.425);
+}
+.wave__nav2 .second_nav__wraper .second_nav__left,
+.wave__nav2 .second_nav__wraper .second_nav__right {
+  height: 100%;
+  width: 100%;
+  transition: all 250ms ease;
+}
+.wave__nav2 .second_nav__wraper .second_nav__left {
+  display: flex;
+  justify-content: center;
+  margin-right: 1px;
+  border-radius: 50px 0 0 50px;
+}
+.wave__nav2 .second_nav__wraper .second_nav__left:active {
+  box-shadow: inset -2px 2px 5px rgba(0, 0, 0, 0.24);
+  background-color: #00571f;
+}
+.wave__nav2 .second_nav__wraper .second_nav__right {
+  margin-left: 2px;
+  border-radius: 0 50px 50px 0;
+}
+.wave__nav2 .second_nav__wraper .second_nav__right:active {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.24);
+  background-color: #00571f;
+}
+.wave__nav2 .second_nav__wraper a {
+  display: block;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 300;
+  height: 60px;
+  line-height: 60px;
+  transition: all 250ms ease;
+}
+.wave__nav2 .second_nav__wraper a:active {
+  font-size: 16px;
+}
+.wave__nav2 .second_nav__wraper .vertical__line1 {
+  position: relative;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.281);
+  margin: 0 0px 5px -4px;
+  font-size: 30px;
+  width: 1px;
+}
+
+@media screen and (max-width: 1130px) {
+  .wave__nav2 {
+    height: 50px;
+    background-image: url(../img/perehod_1200_75.png);
+  }
+  .wave__nav2 .second_nav__wraper {
+    height: 45px;
+  }
+  .wave__nav2 .second_nav__wraper a {
+    height: 45px;
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .first__block {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .title :nth-child(1) {
+    font-size: 50px;
+  }
+  .title :nth-child(2) {
+    font-size: 18px;
+    margin-top: -45px;
+  }
+
+  .wave__nav2 .second_nav__wraper .second_nav__left a,
+.wave__nav2 .second_nav__wraper .second_nav__right a {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media screen and (max-width: 650px) {
+  .wave__nav2 .second_nav__wraper {
+    max-width: 90%;
+  }
+  .wave__nav2 .second_nav__wraper .second_nav__left a,
+.wave__nav2 .second_nav__wraper .second_nav__right a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .first__block {
+    height: 250px;
+  }
+  .first__block .title :nth-child(1) {
+    font-size: 45px;
+  }
+  .first__block .title :nth-child(2) {
+    font-size: 17px;
+    margin-top: -45px;
+  }
+
+  .wave__nav2 {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 326px) {
+  .first__block .title :nth-child(1) {
+    font-size: 35px;
+  }
+  .first__block .title :nth-child(2) {
+    font-size: 22px;
+    margin-top: -40px;
+  }
+}
+
+/*# sourceMappingURL=first_block_and_wave.css.map */

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="2">
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="apple-touch-icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/first_block_and_wave.css">
+    <link rel="stylesheet" href="./style/about_company.css">
+    <link rel="stylesheet" href="./style/form.css">
+    <link rel="stylesheet" href="./style/choose_category.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Microfibra shop</title>
+</head>
+<body>
+    <a name="top"></a>
+    <header>
+        <div class="line__gradient">
+        </div>
+        <div class="nav__wraper">
+            <div class="nav">
+                <a href="#">Главная</a>
+            </div>
+            <div class="nav">
+                <a href="./katalog.html">Каталог</a>
+            </div>
+            <div class="logo__border">
+                <!-- Лого при больше 500 -->
+                <a href="#">HOLA</a>
+                <!-- Мобильное меню при меньше 500 -->
+                <div class="mobile_menu">
+                    <input type="checkbox" id="menu-checkbox" />
+                    <nav role="navigation"><!-- навигация -->
+                      <label for="menu-checkbox" class="toggle-button" data-open="&#9776;" data-close="&#10006;" onclick></label>
+                      <ul class="main-menu"><!-- список пунктов меню -->
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="katalog.html">Каталог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">F.A.Q.</a></li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="#">Контакты</a>
+            </div>
+            <div class="nav">
+                <a href="#">F.A.Q.</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="first__block">
+        <div class="title">
+            <p>Микрофибра</p>
+            <p>оптом</p>
+        </div>
+    </div>
+
+    <div class="wave__nav2">
+        <div class="second_nav__wraper">
+            <div class="second_nav__left">
+                <a href="./katalog.html#rulony">Рулоны</a>
+            </div>
+            <div class="vertical__line1">
+                <p>|</p>
+            </div>
+            <div class="second_nav__right">
+                <a href="./katalog.html#salfetki">Салфетки</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about_company_block">
+        <div class="about_company_text">
+            <p>О компании</p>
+            <hr align="left">
+            <p>Мы реализуем оптом
+                микрофибру различной плотности и фактуры. 
+                Наши основные клиенты: швейные 
+                фабрики, клининговые компании, а так же 
+                торговые организации. </p>
+                
+                <!-- <br>Важнейшим приоритетом 
+                для нас является долговременное партнерство 
+                с каждым клиентом, поэтому мы предлагаем 
+                лучшее качество продукции, удобный сервис 
+                и понятную систему скидок. -->
+        </div>
+        <div class="about_company_foto">
+            <img src="./img/manufacture.jpg" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+    
+
+    <div class="block_form">
+        <div class="left_form_block">
+
+        </div>
+        <div class="right_form_block">
+            <form action="" class="form_g">
+                <div class="form_checkboxes_wrap">
+                    <div>
+                        <label for="yur">Юр.лицо</label>
+                        <input type="radio" class="custom_radio" name="dzen" id="yur" checked>
+                    </div>
+                    <div>
+                        <label for="ip">ИП</label>
+                        <input type="radio" class="custom_radio" name="dzen" id="ip">
+                    </div>
+                    <div>
+                        <label for="fiz">Физ.лицо</label>
+                        <input type="radio" class="custom_radio" name="dzen" id="fiz">
+                    </div>
+                </div>
+
+                <div class="form_name_wrap">
+                    <label>
+                        <input type="text" required placeholder="Ваше имя" class="firm_input_text">
+                    </label>
+                </div>
+
+                <div class="form_comment_wrap">
+                    <label>
+                        <input type="text-area" placeholder="Сообщение" class="firm_input_text">
+                    </label>
+                </div>
+
+                <div class="form_tel_wrap">
+                    <label>
+                        <input type="tel" required placeholder="Телефон для связи" class="firm_input_text">
+                    </label>
+                </div>
+
+                <button type="submit">Отпраить запрос</button>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="choose_category_blocks">
+        <div class="choose_left">
+            <div class="choose_title_category">
+                <p>Категория</p>
+                <p>Ткань в рулонах</p>
+                <p>&#8594;</p>
+            </div>
+            <div class="choose_img_category">
+                <img src="./img/rulon.png" alt="">
+            </div>
+        </div>
+        <div class="choose_right">
+            <div class="choose_title_category">
+                <p>Категория</p>
+                <p>Салфетки</p>
+                <p>&#8594;</p>
+            </div>
+            <div class="choose_img_category">
+                <img src="./img/cloths.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="to_the_top">
+        <a href="#top"><img src="./img/icon/keyboard_double_arrow_up_black_24dp.svg" alt="Наверх"></a>
+    </div>
+
+
+
+
+    <footer>
+        <div class="footer__left">
+            <img src="./img/telegram_logo_icon_168692.svg" alt="">
+            <img src="./img/viber_logo_icon_147211.svg" alt="">
+            <img src="./img/media_social_whatsapp_icon_124250.svg" alt="">
+        </div>
+        <div class="footer__right">
+            <a href="#">Контакты</a>
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+    </footer>
+
+</body>
+</html>
