@@ -84,7 +84,7 @@
         .second_nav__right{
             margin-left: 2px;
             border-radius: 0 50px 50px 0;
-            &:active{
+            &:hover{
                 box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.24);
                 background-color: $darkGreen;
             }
