@@ -76,7 +76,7 @@
             justify-content: center;
             margin-right: 1px;
             border-radius: 50px 0 0 50px;
-            &:active{
+            &:hover{
                 box-shadow: inset -2px 2px 5px rgba(0, 0, 0, 0.24);
                 background-color: $darkGreen;
             }
