@@ -253,12 +253,16 @@ body {
   }
 }
 
-.to_the_top {
+.to_the_top_block {
+  position: relative;
+  z-index: 100;
+}
+.to_the_top_block .to_the_top_wrap a {
   position: fixed;
   right: 10px;
   bottom: 10px;
 }
-.to_the_top img {
+.to_the_top_block img {
   width: 20px;
 }
 

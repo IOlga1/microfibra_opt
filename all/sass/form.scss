@@ -79,16 +79,17 @@
                 cursor: pointer;
 
                 -webkit-transition: box-shadow 200ms ease-in-out, color 300ms ease-in-out;
-                transition: box-shadow 200ms ease-in-out, color 300ms ease-in-out;
+                transition: box-shadow 350ms ease-in-out, color 300ms ease-in-out;
 
-                &:hover{
-                    color: $darkGreen;
-                    box-shadow: 0 0 40px 40px #ffffff inset;
-                }
+                &:hover,
                 &:focus{
                     color: $darkGreen;
                     box-shadow: 0 0 40px 40px #ffffff inset;
                 }
+                // &:focus{
+                //     color: $darkGreen;
+                //     box-shadow: 0 0 40px 40px #ffffff inset;
+                // }
             }
         }
     }

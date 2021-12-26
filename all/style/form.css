@@ -69,13 +69,9 @@
   background-color: #00571f;
   cursor: pointer;
   -webkit-transition: box-shadow 200ms ease-in-out, color 300ms ease-in-out;
-  transition: box-shadow 200ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 350ms ease-in-out, color 300ms ease-in-out;
 }
-.block_form .right_form_block .form_g button:hover {
-  color: #00571f;
-  box-shadow: 0 0 40px 40px #ffffff inset;
-}
-.block_form .right_form_block .form_g button:focus {
+.block_form .right_form_block .form_g button:hover, .block_form .right_form_block .form_g button:focus {
   color: #00571f;
   box-shadow: 0 0 40px 40px #ffffff inset;
 }

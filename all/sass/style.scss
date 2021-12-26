@@ -19,14 +19,20 @@ body{
 
 
 
-.to_the_top{
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
+.to_the_top_block{
+    position: relative;
+    z-index: 100;
+    .to_the_top_wrap a{
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
     img{
         width: 20px;
+        
     }
 }
+
 
 
 

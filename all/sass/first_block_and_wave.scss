@@ -47,17 +47,25 @@
 .wave__nav2{
     position: relative;
     padding-left: 6px;
-    margin-top: -100px;
-    height: 150px;
-    background-image: url(../img/perehod_1600_150.png);
-    background-size: cover;
-    background-position: center;
+    margin-top:-245px;
+    height: 350px;
+//     background-image: url(../img/perehod_1600_150.png);
+//     background-size: cover;
+//     background-position: center;
     z-index: 2;
-    padding-top: 80px;
+    // padding-top: 80px;
+    overflow: hidden;
+    svg{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .second_nav__wraper{
+        position: relative;
+        z-index: 4;
         display: flex;
         background-color: #008522;
-        margin: 0 auto 0 auto;
+        margin: 180px auto 0 auto;
         max-width: 30%;
         height: 60px;
         // justify-content: center;
@@ -120,14 +128,20 @@
 
 
 
+@media screen and (max-width: 2000px) {
+    .wave__nav2{
+        .second_nav__wraper{
+            margin-top: 188px;
+        }
+    }
+}
+
 
 @media screen and (max-width: 1130px) {
     .wave__nav2{
-        height: 50px;
-        background-image: url(../img/perehod_1200_75.png);
-        // border: 1px solid red;
         .second_nav__wraper{
             height: 45px;
+            margin-top: 198px;
             a{
             height: 45px;
             line-height: 45px;
@@ -162,7 +176,6 @@
                 a{
                     font-size: 14px;
                     font-family: 'Open Sans', sans-serif;                    
-                    // text-transform: uppercase;
                 }
             }
         }
