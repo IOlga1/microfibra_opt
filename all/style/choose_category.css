@@ -12,51 +12,54 @@
   background-color: white;
   box-shadow: 0 0 50px 0 rgba(102, 102, 102, 0.25);
 }
-.choose_category_blocks .choose_left,
-.choose_category_blocks .choose_right {
+.choose_category_blocks .choose_category_link {
+  display: block;
+  width: 50%;
+}
+.choose_category_blocks .choose_category_link .choose_left,
+.choose_category_blocks .choose_category_link .choose_right {
   display: flex;
   justify-content: space-between;
   padding: 25px 35px;
   min-height: 100px;
-  width: 50%;
   cursor: pointer;
   transition: all 100ms ease-in-out;
 }
-.choose_category_blocks .choose_left:hover,
-.choose_category_blocks .choose_right:hover {
+.choose_category_blocks .choose_category_link .choose_left:hover,
+.choose_category_blocks .choose_category_link .choose_right:hover {
   box-shadow: 0 0 50px 0 rgba(102, 102, 102, 0.25);
 }
-.choose_category_blocks .choose_left {
+.choose_category_blocks .choose_category_link .choose_left {
   border-top: 6px solid #008a00;
 }
-.choose_category_blocks .choose_right {
+.choose_category_blocks .choose_category_link .choose_right {
   border-top: 6px solid #00571f;
   border-left: 1px solid rgba(82, 82, 82, 0.212);
 }
-.choose_category_blocks .choose_title_category {
+.choose_category_blocks .choose_category_link .choose_title_category {
   position: relative;
 }
-.choose_category_blocks .choose_title_category :nth-child(1) {
+.choose_category_blocks .choose_category_link .choose_title_category :nth-child(1) {
   color: #666666;
   font-family: "Exo 2", sans-serif;
   font-size: 17px;
   font-weight: 300;
 }
-.choose_category_blocks .choose_title_category :nth-child(2) {
+.choose_category_blocks .choose_category_link .choose_title_category :nth-child(2) {
   color: #00571f;
   font-size: 30px;
   font-family: "Exo 2", sans-serif;
   font-weight: 600;
   margin-top: -5px;
 }
-.choose_category_blocks .choose_title_category :nth-child(3) {
+.choose_category_blocks .choose_category_link .choose_title_category :nth-child(3) {
   bottom: -30px;
   color: #666666;
   font-size: 30px;
   margin-top: 115px;
   margin-bottom: -10px;
 }
-.choose_category_blocks .choose_img_category img {
+.choose_category_blocks .choose_category_link .choose_img_category img {
   margin-top: 15px;
   max-width: 250px;
 }

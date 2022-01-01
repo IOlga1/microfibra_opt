@@ -18,55 +18,59 @@
     background-color: white;
     box-shadow: 0 0 50px 0 hsl(0deg 0% 40% / 25%);
 
-    .choose_left,
-    .choose_right{
-        display: flex;
-        justify-content: space-between;
-        padding: 25px 35px;
-        min-height: 100px;
+    .choose_category_link{
+        display: block;
         width: 50%;
-        cursor: pointer;
-        transition: all 100ms ease-in-out;
-        &:hover{
-            box-shadow: 0 0 50px 0 hsl(0deg 0% 40% / 25%);
-        }
-    }
-    .choose_left{
-        border-top: 6px solid rgb(0, 138, 0);
-    }
-    .choose_right{
-        border-top: 6px solid $darkGreen;
-        border-left: 1px solid rgba(82, 82, 82, 0.212);
-    }
 
-    .choose_title_category{
-        position: relative;
-        :nth-child(1){
-            color: #666666;
-            font-family: 'Exo 2', sans-serif;
-            font-size: 17px;
-            font-weight: 300;
+        .choose_left,
+        .choose_right{
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 35px;
+            min-height: 100px;
+            cursor: pointer;
+            transition: all 100ms ease-in-out;
+            &:hover{
+                box-shadow: 0 0 50px 0 hsl(0deg 0% 40% / 25%);
+            }
         }
-        :nth-child(2){
-            color: $darkGreen;
-            font-size: 30px;
-            font-family: 'Exo 2', sans-serif;
-            font-weight: 600;
-            margin-top: -5px;
+        .choose_left{
+            border-top: 6px solid rgb(0, 138, 0);
         }
-        :nth-child(3){
-            // position: relative;
-            bottom: -30px;
-            color: #666666;
-            font-size: 30px;
-            margin-top: 115px;
-            margin-bottom: -10px;
+        .choose_right{
+            border-top: 6px solid $darkGreen;
+            border-left: 1px solid rgba(82, 82, 82, 0.212);
         }
-    }
 
-    .choose_img_category img{
-        margin-top: 15px;
-        max-width: 250px;
+        .choose_title_category{
+            position: relative;
+            :nth-child(1){
+                color: #666666;
+                font-family: 'Exo 2', sans-serif;
+                font-size: 17px;
+                font-weight: 300;
+            }
+            :nth-child(2){
+                color: $darkGreen;
+                font-size: 30px;
+                font-family: 'Exo 2', sans-serif;
+                font-weight: 600;
+                margin-top: -5px;
+            }
+            :nth-child(3){
+                // position: relative;
+                bottom: -30px;
+                color: #666666;
+                font-size: 30px;
+                margin-top: 115px;
+                margin-bottom: -10px;
+            }
+        }
+
+        .choose_img_category img{
+            margin-top: 15px;
+            max-width: 250px;
+        }
     }
 }
 
