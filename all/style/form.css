@@ -28,17 +28,17 @@
   gap: 30px;
   justify-content: start;
 }
-.block_form .right_form_block .form_g .form_checkboxes_wrap div {
+.block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 {
   display: flex;
   justify-content: end;
   min-width: 100px;
 }
-.block_form .right_form_block .form_g .form_checkboxes_wrap div label {
+.block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 label {
   cursor: pointer;
   color: white;
   font-family: "Raleway", sans-serif;
 }
-.block_form .right_form_block .form_g .form_checkboxes_wrap div .custom_radio {
+.block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 .custom_radio {
   margin-left: 7px;
 }
 .block_form .right_form_block .form_g .form_name_wrap input,
