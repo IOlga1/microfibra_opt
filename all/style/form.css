@@ -27,19 +27,49 @@
   display: flex;
   gap: 30px;
   justify-content: start;
+  padding-left: 5px;
 }
 .block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 {
+  position: relative;
   display: flex;
-  justify-content: end;
+  padding-left: 15px;
   min-width: 100px;
 }
-.block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 label {
+.block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 .label1 {
   cursor: pointer;
   color: white;
   font-family: "Raleway", sans-serif;
 }
+.block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 .label1::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 1px solid #00571f;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 .label1::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: linear-gradient(270deg, #00571f, #008522);
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  opacity: 0;
+  transition: opacity 0.1s linear;
+}
 .block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 .custom_radio {
-  margin-left: 7px;
+  appearance: none;
+}
+.block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 .custom_radio:checked + label::after {
+  opacity: 1;
 }
 .block_form .right_form_block .form_g .form_name_wrap input,
 .block_form .right_form_block .form_g .form_comment_wrap input,
@@ -130,7 +160,7 @@ input[type=tel] {
   }
 }
 @media screen and (max-width: 500px) {
-  .block_form .right_form_block .form_g .form_checkboxes_wrap div {
+  .block_form .right_form_block .form_g .form_checkboxes_wrap .radio1 {
     min-width: 80px;
   }
   .block_form .right_form_block .form_g .form_name_wrap input,
