@@ -15,6 +15,9 @@ body {
         background-color: $darkGreen;
         border-radius: 8px;
     }
+    a{
+        text-decoration: none;
+    }
 }
 
 .first__block {
@@ -42,7 +45,7 @@ body {
         }
     }
     .scroll_wrap{
-        width: 100vw;
+        width: 99vw;
         display: flex;
         justify-content: center;
         // border: 1px solid red;
@@ -82,79 +85,3 @@ body {
     }
 }
 
-@media screen and (max-width: 1250px) {
-    .catalog_wrap {
-        .grid-katalog_block_rul,
-        .grid-katalog_block_salf {
-            // width: 90%;
-            // display: grid;
-            // grid-template-rows:  repeat(auto, 1fr);
-            // grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-        }
-    }
-}
-
-@media screen and (max-width: 1150px) {
-    .catalog_wrap {
-        .grid-katalog_block_rul,
-        .grid-katalog_block_salf {
-            // max-width: 90%;
-            // display: grid;
-            // grid-template-rows:  repeat(auto, 1fr);
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2%;
-        }
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .catalog_wrap {
-        .grid-katalog_block_rul,
-        .grid-katalog_block_salf {
-            // max-width: 90%;
-            // display: grid;
-            // grid-template-rows:  repeat(auto, 1fr);
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2%;
-        }
-        .grid-katalog_block_salf {
-            grid-template-rows: repeat(13, 1fr);
-            margin-bottom: 120px;
-        }
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .catalog_wrap {
-        .grid-katalog_block_rul,
-        .grid-katalog_block_salf {
-            // max-width: 90%;
-            // display: grid;
-            // grid-template-rows:  repeat(auto, 1fr);
-            // grid-template-columns: repeat(3, 1fr);
-            gap: 1%;
-        }
-        .grid-katalog_block_salf {
-            grid-template-rows: repeat(12, 1fr);
-            margin-bottom: 0px;
-        }
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .catalog_wrap {
-        .grid-katalog_block_rul,
-        .grid-katalog_block_salf {
-            max-width: 100%;
-            // display: grid;
-            // grid-template-rows:  repeat(auto, 1fr);
-            // grid-template-columns: repeat(3, 1fr);
-            gap: 5px;
-        }
-        .grid-katalog_block_salf {
-            grid-template-rows: repeat(12, 1fr);
-            margin-bottom: -280px;
-        }
-    }
-}

@@ -11,6 +11,9 @@ body::-webkit-scrollbar-thumb {
   background-color: #00571f;
   border-radius: 8px;
 }
+body a {
+  text-decoration: none;
+}
 
 .first__block {
   background-image: url(../img/fon_about_company2.jpg);
@@ -37,7 +40,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .catalog_wrap .scroll_wrap {
-  width: 100vw;
+  width: 99vw;
   display: flex;
   justify-content: center;
 }
@@ -113,52 +116,6 @@ body::-webkit-scrollbar-thumb {
 }
 .to_the_top_block img {
   width: 20px;
-}
-
-@media screen and (max-width: 1250px) {
-  .catalog_wrap .grid-katalog_block_rul,
-.catalog_wrap .grid-katalog_block_salf {
-    gap: 20px;
-  }
-}
-@media screen and (max-width: 1150px) {
-  .catalog_wrap .grid-katalog_block_rul,
-.catalog_wrap .grid-katalog_block_salf {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2%;
-  }
-}
-@media screen and (max-width: 750px) {
-  .catalog_wrap .grid-katalog_block_rul,
-.catalog_wrap .grid-katalog_block_salf {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2%;
-  }
-  .catalog_wrap .grid-katalog_block_salf {
-    grid-template-rows: repeat(13, 1fr);
-    margin-bottom: 120px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .catalog_wrap .grid-katalog_block_rul,
-.catalog_wrap .grid-katalog_block_salf {
-    gap: 1%;
-  }
-  .catalog_wrap .grid-katalog_block_salf {
-    grid-template-rows: repeat(12, 1fr);
-    margin-bottom: 0px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .catalog_wrap .grid-katalog_block_rul,
-.catalog_wrap .grid-katalog_block_salf {
-    max-width: 100%;
-    gap: 5px;
-  }
-  .catalog_wrap .grid-katalog_block_salf {
-    grid-template-rows: repeat(12, 1fr);
-    margin-bottom: -280px;
-  }
 }
 
 /*# sourceMappingURL=katalog.css.map */

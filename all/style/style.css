@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
 body::-webkit-scrollbar {
   background-color: #ddd;
@@ -10,6 +11,15 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: #00571f;
   border-radius: 8px;
+}
+body a {
+  text-decoration: none;
+}
+body :focus, body :active {
+  outline: none;
+}
+body a:focus, body a:active {
+  outline: none;
 }
 
 .first__block {

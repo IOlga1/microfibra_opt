@@ -74,7 +74,6 @@
                 font-family: 'Raleway', sans-serif;
                 border: 2px solid white;
                 border-radius: 50px;
-                // box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.466);
                 background-color: $darkGreen;
                 cursor: pointer;
 
@@ -86,10 +85,6 @@
                     color: $darkGreen;
                     box-shadow: 0 0 40px 40px #ffffff inset;
                 }
-                // &:focus{
-                //     color: $darkGreen;
-                //     box-shadow: 0 0 40px 40px #ffffff inset;
-                // }
             }
         }
     }
