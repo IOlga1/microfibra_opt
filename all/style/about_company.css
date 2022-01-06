@@ -5,6 +5,8 @@
   z-index: 3;
   display: flex;
   padding-left: 6px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #ffffff, rgba(221, 221, 221, 0.671), #ffffff) 47% 0%;
 }
 .about_company_block .about_company_text,
 .about_company_block .about_company_foto {

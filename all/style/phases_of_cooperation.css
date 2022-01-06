@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Open+Sans:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+.phases_of_cooperation_block {
+  width: 100%;
+  padding: 10px 0 50px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phases_of_cooperation_block .title_phases_block {
+  font-size: 36px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.phases_of_cooperation_block .phases_flex_wraper {
+  width: 87vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1%;
+}
+.phases_of_cooperation_block .phases_flex_wraper .item_phases {
+  width: 180px;
+}
+.phases_of_cooperation_block .phases_flex_wraper .item_phases .svg_wrap {
+  position: relative;
+  height: 90px;
+}
+.phases_of_cooperation_block .phases_flex_wraper .item_phases .svg_wrap svg {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  stroke: #00571f;
+  width: 100px;
+}
+.phases_of_cooperation_block .phases_flex_wraper .item_phases :nth-child(2) {
+  text-align: center;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+.phases_of_cooperation_block .phases_flex_wraper .item_phases :nth-child(3) {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+#phases4 path:nth-child(1) {
+  stroke-dasharray: 28px;
+  stroke-dashoffset: 28px;
+  animation: anim-line9 0.5s linear forwards;
+}
+
+@keyframes anim-line9 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases4 path:nth-child(2) {
+  stroke-dasharray: 183px;
+  stroke-dashoffset: 183px;
+  animation: anim-line10 0.5s linear 0.2s forwards;
+}
+
+@keyframes anim-line10 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases4 path:nth-child(3) {
+  stroke-dasharray: 46px;
+  stroke-dashoffset: 46px;
+  animation: anim-line11 0.5s linear 0.5s forwards;
+}
+
+@keyframes anim-line11 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases4 path:nth-child(4) {
+  stroke-dasharray: 143px;
+  stroke-dashoffset: 143px;
+  animation: anim-line12 1s linear forwards;
+}
+
+@keyframes anim-line12 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases4 path:nth-child(5) {
+  stroke-dasharray: 6px;
+  stroke-dashoffset: 6px;
+  animation: anim-line13 0.5s linear 0.5s forwards;
+}
+
+@keyframes anim-line13 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases4 path:nth-child(6) {
+  stroke-dasharray: 80px;
+  stroke-dashoffset: 80px;
+  animation: anim-line14 0.5s linear 1s forwards;
+}
+
+@keyframes anim-line14 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases5 path:nth-child(1),
+#phases5 path:nth-child(2),
+#phases5 path:nth-child(3) {
+  stroke-dasharray: 35px;
+  stroke-dashoffset: 35px;
+  animation: anim-line 1s linear forwards;
+}
+
+@keyframes anim-line {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases5 path:nth-child(4) {
+  stroke-dasharray: 218px;
+  stroke-dashoffset: 218px;
+  animation: anim-line2 1s linear forwards;
+}
+
+@keyframes anim-line2 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases5 path:nth-child(5) {
+  stroke-dasharray: 231px;
+  stroke-dashoffset: 231px;
+  animation: anim-line3 1.5s linear forwards;
+}
+
+@keyframes anim-line3 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases5 path:nth-child(6) {
+  stroke-dasharray: 151px;
+  stroke-dashoffset: 151px;
+  animation: anim-line4 1.5s linear forwards;
+}
+
+@keyframes anim-line4 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases5 path:nth-child(7),
+#phases5 path:nth-child(8),
+#phases5 path:nth-child(9) {
+  stroke-dasharray: 63px;
+  stroke-dashoffset: 63px;
+  animation: anim-line5 0.5s linear 1.5s forwards;
+}
+
+@keyframes anim-line5 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases5 path:nth-child(10) {
+  stroke-dasharray: 8px;
+  stroke-dashoffset: 8px;
+  animation: anim-line6 0.5s linear 2s forwards;
+}
+
+@keyframes anim-line6 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases5 path:nth-child(11) {
+  stroke-dasharray: 5px;
+  stroke-dashoffset: 5px;
+  animation: anim-line7 0.5s linear 2.5s forwards;
+}
+
+@keyframes anim-line7 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#phases5 path:nth-child(12),
+path:nth-child(13) {
+  stroke-dasharray: 8px;
+  stroke-dashoffset: 8px;
+  animation: anim-line8 0.5s linear 2.5s forwards;
+}
+
+@keyframes anim-line8 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/*# sourceMappingURL=phases_of_cooperation.css.map */
