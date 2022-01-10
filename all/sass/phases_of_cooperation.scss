@@ -55,6 +55,364 @@
 
 
 // ANIMATION
+// Заявка
+#phases1 path:nth-child(1){
+    stroke-dasharray: 162px;
+    stroke-dashoffset: 162px;
+    animation: anim-line32 1s linear forwards;
+}
+@keyframes anim-line32 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(2){
+    stroke-dasharray: 50px;
+    stroke-dashoffset: 50px;
+    animation: anim-line33 .7s linear forwards;
+}
+@keyframes anim-line33 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(3),
+#phases1 path:nth-child(4){
+    stroke-dasharray: 12px;
+    stroke-dashoffset: 12px;
+    animation: anim-line34 .7s linear forwards;
+}
+@keyframes anim-line34 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(5){
+    stroke-dasharray: 66px;
+    stroke-dashoffset: 66px;
+    animation: anim-line35 .6s linear .2s forwards;
+}
+@keyframes anim-line35 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(6){
+    stroke-dasharray: 44px;
+    stroke-dashoffset: 44px;
+    animation: anim-line36 .6s linear .2s forwards;
+}
+@keyframes anim-line36 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(7){
+    stroke-dasharray: 30px;
+    stroke-dashoffset: 30px;
+    animation: anim-line37 .8s linear .2s forwards;
+}
+@keyframes anim-line37 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(8){
+    stroke-dasharray: 28px;
+    stroke-dashoffset: 28px;
+    animation: anim-line38 .6s linear .2s forwards;
+}
+@keyframes anim-line38 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(9){
+    stroke-dasharray: 60px;
+    stroke-dashoffset: 60px;
+    animation: anim-line39 .8s linear .2s forwards;
+}
+@keyframes anim-line39 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(11){
+    stroke-dasharray: 13px;
+    stroke-dashoffset: 13px;
+    animation: anim-line40 .8s linear .2s forwards;
+}
+@keyframes anim-line40 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(12){
+    stroke-dasharray: 20px;
+    stroke-dashoffset: 20px;
+    animation: anim-line42 .8s linear .2s forwards;
+}
+@keyframes anim-line42 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(13){
+    stroke-dasharray: 11px;
+    stroke-dashoffset: 11px;
+    animation: anim-line41 .8s linear .2s forwards;
+}
+@keyframes anim-line41 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(14){
+    stroke-dasharray: 15px;
+    stroke-dashoffset: 15px;
+    animation: anim-line43 .8s linear .2s forwards;
+}
+@keyframes anim-line43 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(15),
+#phases1 path:nth-child(23){
+    stroke-dasharray: 30px;
+    stroke-dashoffset: 30px;
+    animation: anim-line44 .6s linear 1s forwards;
+}
+@keyframes anim-line44 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(16),
+#phases1 path:nth-child(22){
+    stroke-dasharray: 30px;
+    stroke-dashoffset: 30px;
+    animation: anim-line45 .6s linear 1.2s forwards;
+}
+@keyframes anim-line45 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(17),
+#phases1 path:nth-child(21){
+    stroke-dasharray: 30px;
+    stroke-dashoffset: 30px;
+    animation: anim-line46 .6s linear 1.4s forwards;
+}
+@keyframes anim-line46 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(18),
+#phases1 path:nth-child(19){
+    stroke-dasharray: 30px;
+    stroke-dashoffset: 30px;
+    animation: anim-line47 .6s linear 1.6s forwards;
+}
+@keyframes anim-line47 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases1 path:nth-child(20){
+    stroke-dasharray: 30px;
+    stroke-dashoffset: 30px;
+    animation: anim-line48 .6s linear 1.8s forwards;
+}
+@keyframes anim-line48 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+// Прайс
+#phases2 path:nth-child(1){
+    stroke-dasharray: 287px;
+    stroke-dashoffset: 287px;
+    animation: anim-line19 1s linear .2s forwards;
+}
+@keyframes anim-line19 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+// #phases2 line:nth-child(2),
+// #phases2 path:nth-child(5),
+// #phases2 path:nth-child(12),
+// #phases2 path:nth-child(13),
+// #phases2 path:nth-child(14),
+// #phases2 path:nth-child(15),
+#phases2 path:nth-child(16),
+#phases2 path:nth-child(17){
+    stroke-dasharray: 12px;
+    stroke-dashoffset: 12px;
+    animation: anim-line20 1s linear forwards;
+}
+@keyframes anim-line20 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases2 line:nth-child(3),
+#phases2 line:nth-child(4),
+#phases2 path:nth-child(6),
+#phases2 path:nth-child(7),
+#phases2 circle:nth-child(8),
+#phases2 circle:nth-child(9),
+#phases2 circle:nth-child(10),
+#phases2 circle:nth-child(11){
+    stroke-dasharray: 35px;
+    stroke-dashoffset: 35px;
+    animation: anim-line21 1s linear .5s forwards;
+}
+@keyframes anim-line21 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases2 line:nth-child(18),
+#phases2 line:nth-child(19),
+#phases2 line:nth-child(20),
+#phases2 line:nth-child(23),
+#phases2 path:nth-child(21),
+#phases2 path:nth-child(22),
+#phases2 circle:nth-child(30),
+#phases2 circle:nth-child(31),
+#phases2 circle:nth-child(32){
+    stroke-dasharray: 44px;
+    stroke-dashoffset: 44px;
+    animation: anim-line22 .8s linear .2s forwards;
+}
+@keyframes anim-line22 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases2 line:nth-child(24),
+#phases2 line:nth-child(25){
+    stroke-dasharray: 5px;
+    stroke-dashoffset: 5px;
+    animation: anim-line23 .4s linear 1.2s forwards;
+}
+@keyframes anim-line23 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases2 line:nth-child(28),
+#phases2 line:nth-child(29){
+    stroke-dasharray: 5px;
+    stroke-dashoffset: 5px;
+    animation: anim-line24 .4s linear 1.6s forwards;
+}
+@keyframes anim-line24 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases2 line:nth-child(26),
+#phases2 line:nth-child(27){
+    stroke-dasharray: 5px;
+    stroke-dashoffset: 5px;
+    animation: anim-line25 .4s linear 2s forwards;
+}
+@keyframes anim-line25 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+// Согласование
+#phases3 path:nth-child(1),
+#phases3 path:nth-child(2){
+    stroke-dasharray: 97px;
+    stroke-dashoffset: 97px;
+    animation: anim-line18 1.2s linear .2s forwards;
+}
+@keyframes anim-line18 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases3 path:nth-child(3){
+    stroke-dasharray: 50px;
+    stroke-dashoffset: 50px;
+    animation: anim-line15 1.2s linear .2s forwards;
+}
+@keyframes anim-line15 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases3 path:nth-child(5){
+    stroke-dasharray: 31px;
+    stroke-dashoffset: 31px;
+    animation: anim-line16 1s linear .4s forwards;
+}
+@keyframes anim-line16 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases3 path:nth-child(11),
+#phases3 path:nth-child(12),
+#phases3 path:nth-child(13),
+#phases3 path:nth-child(14){
+    stroke-dasharray: 12px;
+    stroke-dashoffset: 12px;
+    animation: anim-line17 1.2s linear .2s forwards;
+}
+@keyframes anim-line17 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases3 path:nth-child(15),
+#phases3 path:nth-child(16),
+#phases3 path:nth-child(17),
+#phases3 path:nth-child(18){
+    stroke-dasharray: 44px;
+    stroke-dashoffset: 44px;
+    animation: anim-line18 1s linear .2s forwards;
+}
+@keyframes anim-line18 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
 
 // Счет
 #phases4 path:nth-child(1){
@@ -118,6 +476,72 @@
     animation: anim-line14 .5s linear 1s forwards;
 }
 @keyframes anim-line14 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases4 line:nth-child(9){
+    stroke-dasharray: 43px;
+    stroke-dashoffset: 43px;
+    animation: anim-line28 .6s linear .6s forwards;
+}
+@keyframes anim-line28 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases4 line:nth-child(10){
+    stroke-dasharray: 43px;
+    stroke-dashoffset: 43px;
+    animation: anim-line29 .6s linear .9s forwards;
+}
+@keyframes anim-line29 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases4 line:nth-child(11){
+    stroke-dasharray: 43px;
+    stroke-dashoffset: 43px;
+    animation: anim-line30 .6s linear 1.2s forwards;
+}
+@keyframes anim-line30 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases4 line:nth-child(12){
+    stroke-dasharray: 43px;
+    stroke-dashoffset: 43px;
+    animation: anim-line31 .6s linear 1.5s forwards;
+}
+@keyframes anim-line31 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases4 path:nth-child(7){
+    stroke-dasharray: 35px;
+    stroke-dashoffset: 35px;
+    animation: anim-line26 .7s linear 1.8s forwards;
+}
+@keyframes anim-line26 {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#phases4 path:nth-child(8){
+    stroke-dasharray: 21px;
+    stroke-dashoffset: 21px;
+    animation: anim-line27 .7s linear 1.7s forwards;
+}
+@keyframes anim-line27 {
     to{
         stroke-dashoffset: 0;
     }
