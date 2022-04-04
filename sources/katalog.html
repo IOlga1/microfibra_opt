@@ -8,6 +8,7 @@
     <meta http-equiv="refresh" content="">
     <link rel="icon" href="./img/favicon.png">
     <link rel="apple-touch-icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./style/loader.css">
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/first_block_and_wave.css">
     <link rel="stylesheet" href="./style/footer.css">
@@ -16,6 +17,10 @@
 </head>
 
 <body>
+    <div class="mask">
+        <div class="loader"></div>
+    </div>
+
     <a name="top"></a>
     <header>
         <div class="line__gradient">
@@ -53,6 +58,9 @@
             <div class="nav">
                 <a href="#">F.A.Q.</a>
             </div>
+        </div>
+        <div class="currency_wrap">
+            <p class="actual_currency"></p>
         </div>
     </header>
 
@@ -316,6 +324,12 @@
             <a href="#">Политика конфиденциальности</a>
         </div>
     </footer>
+
+
+
+
+    <script src="./js/loader.js"></script>
+    <script src="./js/currency.js"></script>
 </body>
 
 </html>

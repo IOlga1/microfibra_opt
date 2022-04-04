@@ -73,7 +73,7 @@
 }
 .block_form .right_form_block .form_g .form_name_wrap input,
 .block_form .right_form_block .form_g .form_comment_wrap input,
-.block_form .right_form_block .form_g .form_tel_wrap input {
+.block_form .right_form_block .form_g .form_email_wrap input {
   min-width: 370px;
   height: 40px;
   border: none;
@@ -82,7 +82,7 @@
 }
 .block_form .right_form_block .form_g .form_name_wrap input::placeholder,
 .block_form .right_form_block .form_g .form_comment_wrap input::placeholder,
-.block_form .right_form_block .form_g .form_tel_wrap input::placeholder {
+.block_form .right_form_block .form_g .form_email_wrap input::placeholder {
   padding-left: 0px;
   font-family: "Raleway", sans-serif;
 }
@@ -106,26 +106,35 @@
   box-shadow: 0 0 40px 40px #ffffff inset;
 }
 
+._error::placeholder {
+  color: rgba(255, 0, 0, 0.686);
+  font-weight: 700;
+}
+
+.invalid {
+  color: red;
+}
+
 input[type=text] {
-  background-image: url(../img/icon/name.png);
-  background-size: 40px;
-  background-position: 2px 1px;
+  background-image: url(../img/icon/name.svg);
+  background-size: 38px;
+  background-position: 2px 2px;
   background-repeat: no-repeat;
   padding-left: 50px;
 }
 
 input[type=text-area] {
-  background-image: url(../img/icon/comment.png);
-  background-size: 35px;
-  background-position: 4px 4px;
+  background-image: url(../img/icon/comment.svg);
+  background-size: 38px;
+  background-position: 2px 2px;
   background-repeat: no-repeat;
   padding-left: 50px;
 }
 
-input[type=tel] {
-  background-image: url(../img/icon/tel.png);
-  background-size: 35px;
-  background-position: 4px 4px;
+input[type=email] {
+  background-image: url(../img/icon/email.svg);
+  background-size: 38px;
+  background-position: 2px 2px;
   background-repeat: no-repeat;
   padding-left: 50px;
 }
@@ -165,7 +174,7 @@ input[type=tel] {
   }
   .block_form .right_form_block .form_g .form_name_wrap input,
 .block_form .right_form_block .form_g .form_comment_wrap input,
-.block_form .right_form_block .form_g .form_tel_wrap input {
+.block_form .right_form_block .form_g .form_email_wrap input {
     min-width: 320px;
   }
   .block_form .right_form_block .form_g button {

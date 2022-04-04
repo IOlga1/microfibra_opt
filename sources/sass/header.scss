@@ -59,6 +59,18 @@ header{
             }
         }
     }
+
+    .currency_wrap{
+        position: absolute;
+        top: 18px;
+        right: 10px;
+        padding: 0 7px 0 7px;
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 30px;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 400;
+        color: $darkGreen;
+    }
 }
 
 
@@ -80,6 +92,9 @@ header{
     header{ 
         .nav__wraper{
             max-width: 90%;
+        }
+        .currency_wrap{
+            display: none;
         }
     }
 }

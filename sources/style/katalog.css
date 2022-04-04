@@ -6,6 +6,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 body::-webkit-scrollbar {
   background-color: #ddd;
@@ -111,7 +112,7 @@ body a {
 
 .to_the_top_block {
   position: relative;
-  z-index: 100;
+  z-index: 99;
 }
 .to_the_top_block .to_the_top_wrap a {
   position: fixed;

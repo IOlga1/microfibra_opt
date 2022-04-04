@@ -286,19 +286,19 @@
 
                 <div class="form_name_wrap">
                     <label>
-                        <input type="text" required placeholder="Ваше имя" class="firm_input_text">
+                        <input type="text" name="name" placeholder="Ваше имя*" class="firm_input_text requared_field invalid" autocomplete="off">
                     </label>
                 </div>
 
                 <div class="form_comment_wrap">
                     <label>
-                        <input type="text-area" placeholder="Сообщение" class="firm_input_text">
+                        <input type="text-area" name="comment" placeholder="Сообщение*" class="firm_input_text requared_field invalid" autocomplete="off">
                     </label>
                 </div>
 
-                <div class="form_tel_wrap">
+                <div class="form_email_wrap">
                     <label>
-                        <input type="tel" required placeholder="Телефон для связи" class="firm_input_text">
+                        <input type="email" name="email" placeholder="Ваш email*" class="firm_input_text requared_field _email invalid" autocomplete="off">
                     </label>
                 </div>
 
@@ -364,6 +364,12 @@
         </div>
     </footer>
 
+
+
+
+
+
+    <script src="./js/form.js"></script>
 </body>
 
 </html>
