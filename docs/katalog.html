@@ -94,7 +94,6 @@
     </div>
 
 
-
     <a name="rulony"></a>
     <div class="catalog_wrap">
         <div class="cathegory_name">
@@ -103,6 +102,11 @@
         </div>
         <div class="scroll_wrap">
             <div class="grid-katalog_block_rul">
+                <div class="card_preview">
+                    <img src="./img/Calc.png" alt="">
+                    <p>Калькулятор</p>
+                    <p>Поможет расчитать</p>
+                </div>
                 <div class="card_preview">
                     <img src="./img/img_catalog/rulony/185.jpg" alt="">
                     <p>Микрофибра 185г/м²</p>
@@ -150,7 +154,7 @@
 
 
 
-<a name="salfetki"></a>
+        <a name="salfetki"></a>
         <div class="cathegory_name">
             <p>Салфетки</p>
         </div>
@@ -303,6 +307,50 @@
     </div>
 
 
+    <div class="calc_main_wrap">
+
+            <div class="column_calc product_col">
+                <div class="label_calc_col">Вид ткани</div>
+                <select class="select_product">
+                    <option value=""></option>
+                    <option value="classic">Классическая микрофибра</option>
+                    <option value="smooth">Гладкая микрофибра</option>
+                    <option value="rubber">Микрофибра с полиуретаном</option>
+                </select>
+            </div>
+            <div class="column_calc width_col">
+                <div class="label_calc_col">Ширина полотна</div>
+                <p class="width_text">0 cm</p>
+            </div>
+            <div class="column_calc density_col">
+                <div class="label_calc_col">Плотность (г/м<sup>2</sup>)</div>
+                <select class="select_destiny">
+                    <option value="185">185</option>
+                    <option value="200">200</option>
+                    <option value="230">230</option>
+                    <option value="250">250</option>
+                    <option value="280">280</option>
+                    <option value="300">300</option>
+                    <option value="400">400</option>
+                    <option value="550">550</option>
+                    <option value="800">800</option>
+                </select>
+            </div>
+            <div class="column_calc weight_one_col">
+                <div class="label_calc_col">Вес 1 пог.метра</div>
+                <p class="weight_one_text">0 г</p>
+            </div>
+            <div class="column_calc footage_col">
+                <div class="label_calc_col">Нужный метраж</div>
+                <input class="footage_input_text" type="number">
+            </div>
+            <div class="column_calc weight_all_col">
+                <div class="label_calc_col">Общий вес</div>
+                <p class="weight_all_text">0 кг</p>
+            </div>
+
+    </div>
+
 
 
 
@@ -330,6 +378,10 @@
 
     <script src="./js/loader.js"></script>
     <script src="./js/currency.js"></script>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="./js/calc.js"></script>
 </body>
 
 </html>

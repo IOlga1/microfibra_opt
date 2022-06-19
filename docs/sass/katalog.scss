@@ -22,19 +22,19 @@ body {
     a{
         text-decoration: none;
     }
-    overflow: hidden;
+    overflow-x: hidden !important;
 }
 
 .first__block {
     background-image: url(../img/fon_about_company2.jpg);
 }
 
+
 .catalog_wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // border: 1px solid red;
     .cathegory_name {
         margin-top: 80px;
         margin-bottom: 30px;
@@ -53,7 +53,6 @@ body {
         width: 99vw;
         display: flex;
         justify-content: center;
-        // border: 1px solid red;
         .grid-katalog_block_rul,
         .grid-katalog_block_salf {
             padding:0 50px 0 50px;
@@ -76,6 +75,32 @@ body {
         }
     }
 }
+
+
+.calc_main_wrap {
+    border: 1px solid red;
+    box-sizing: border-box;
+    // width: 99vw;
+    margin: 50px 0 40px 0;
+    min-height: 100px;
+    display: flex;
+    justify-content:center;
+    gap: 10px
+}
+
+.column_calc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label_calc_col {
+    height: 30px;
+}
+
+
+
+
 
 .to_the_top_block {
     position: relative;
