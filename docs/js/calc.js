@@ -20,25 +20,25 @@ let getActualWidth = (event) => {
 }
 
 let getActualWeightOne = () => {
-    weightOne.textContent = destiny.value * (parseInt(width.textContent)/100);
+    weightOne.textContent = destiny.value * (parseInt(width.textContent) / 100);
     getActualWeightAll();
 }
 
 let getActualWeightAll = () => {
-    weightAll.textContent = footage.value * parseInt(weightOne.textContent)/1000 + ' кг';
+    weightAll.textContent = footage.value * parseInt(weightOne.textContent) / 1000 + ' кг';
 }
 
-    let product = document.querySelector('.select_product');
-    product.addEventListener('change', getActualWidth);
+let product = document.querySelector('.select_product');
+product.addEventListener('change', getActualWidth);
 
-    let width = document.querySelector('.width_text');
+let width = document.querySelector('.width_text');
 
-    let destiny = document.querySelector('.select_destiny');
-    destiny.addEventListener('change', getActualWeightOne);
+let destiny = document.querySelector('.select_destiny');
+destiny.addEventListener('change', getActualWeightOne);
 
-    let weightOne = document.querySelector('.weight_one_text');
+let weightOne = document.querySelector('.weight_one_text');
 
-    let footage = document.querySelector('.footage_input_text');
-    footage.addEventListener('change', getActualWeightAll);
+let footage = document.querySelector('.footage_input_text');
+footage.addEventListener('change', getActualWeightAll);
 
-    let weightAll = document.querySelector('.weight_all_text');
+let weightAll = document.querySelector('.weight_all_text');

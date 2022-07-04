@@ -31,18 +31,28 @@ async function formSend(event) {
     let validField = 0;
     event.preventDefault();
     for (i of inputs) {
-        if (i.classList.contains('valid')) {
-            validField++;
-
-        } else {
-            i.classList.add('_error');
-        }
+        i.classList.contains('valid') ? validField++ : i.classList.add('_error');
 
         if (validField == 3) {
-            alert('Ваша форма отправлена!');
-            for(input of inputs){
-                input.value = '';
+            // alert('Ваша форма отправлена!');
+
+            const form = document.querySelector('.form_g');
+            let formData = new FormData(form);
+            let response = await fetch('sendmail.php', {
+                method: 'POST',
+                body: formData
+            });
+            if(response.ok){
+                let result = await response.json();
+                alert(result.message);
+
+                for(input of inputs){
+                    input.value = '';
+                }
+            } else {
+                alert('Ошибка! Повторите отправку позже.')
             }
+
         }
     }
 }
