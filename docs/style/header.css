@@ -138,15 +138,13 @@ header .currency_wrap {
     /* не забываем явно указать каким должен быть курсор */
     cursor: pointer;
     background-color: rgba(29, 23, 23, 0);
-    color: #fff;
-    margin-top: -11px;
+    -webkit-text-fill-color: white;
   }
   header .nav__wraper .logo__border .toggle-button:after {
     /* получаем данные из атрибута data-open в html */
     content: attr(data-open);
     display: block;
     font-size: 30px;
-    margin: 10px 0;
   }
   header .nav__wraper .logo__border #menu-checkbox:checked + nav[role=navigation] .main-menu {
     /* когда чекбокс активен меню становится видимым */
@@ -154,6 +152,12 @@ header .currency_wrap {
   }
   header .nav__wraper .logo__border #menu-checkbox:checked + nav[role=navigation] .toggle-button:after {
     content: attr(data-close);
+    color: rgba(255, 255, 255, 0);
+    background-image: url(../img/icon/cross.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40px;
   }
 }
 

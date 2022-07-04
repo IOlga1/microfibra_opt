@@ -640,3 +640,16 @@
         stroke-dashoffset: 0;
     }
 }
+
+
+
+@media screen and (max-width: 1080px) {
+    .phases_of_cooperation_block{
+        .phases_flex_wraper{
+            margin-top: 50px;
+            gap: 30px;
+            justify-content: center;
+        }
+    }
+}
+

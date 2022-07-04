@@ -1,66 +1,66 @@
-@import 'variables.scss';
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Open+Sans:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import "variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Open+Sans:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 
-header{
+header {
     position: sticky;
     z-index: 10;
-    box-shadow: 0 0 30px 20px rgba(17, 68, 15, 0.199);    
+    box-shadow: 0 0 30px 20px rgba(17, 68, 15, 0.199);
     top: 0;
     background-color: white;
-    .line__gradient{
+    .line__gradient {
         height: 6px;
         background-image: linear-gradient(90deg, #53e101, #00571f 94%);
         width: 100%;
         z-index: 100;
-        top: 0;;
+        top: 0;
     }
-    .nav__wraper{
+    .nav__wraper {
         display: flex;
         max-width: 55%;
         height: 60px;
         margin: auto;
         justify-content: space-around;
         align-items: center;
-        .nav{
+        .nav {
             // border: 1px solid red;
             height: 87%;
             display: flex;
             align-items: center;
             padding-bottom: 3px;
-            &:hover{
+            &:hover {
                 border-bottom: 4px solid #007e2c;
             }
         }
-        .nav a{
-        font-family: 'Exo 2', sans-serif;
-        font-size: 16px;
-        text-decoration: none;
-        color: $darkGreen;
-        font-weight: 500;
-        }
-        & .logo__border{
-        position: relative;
-        margin-top: 43px;
-        height: 65px;
-        width: 65px;
-        border-radius: 50%;
-        background-image: linear-gradient(0deg, #53e101, #007e2c, darkGreen 94%);
-        border: 2px solid white;
-        box-shadow: 0 3px 15px rgba(15, 63, 13, 0.288);
-            &>a{
-            position: absolute;
+        .nav a {
+            font-family: "Exo 2", sans-serif;
+            font-size: 16px;
             text-decoration: none;
-            font-family: 'Raleway', sans-serif;
-            font-size: 22px;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: rgb(255, 255, 255);  
+            color: $darkGreen;
+            font-weight: 500;
+        }
+        & .logo__border {
+            position: relative;
+            margin-top: 43px;
+            height: 65px;
+            width: 65px;
+            border-radius: 50%;
+            background-image: linear-gradient(0deg, #53e101, #007e2c, darkGreen 94%);
+            border: 2px solid white;
+            box-shadow: 0 3px 15px rgba(15, 63, 13, 0.288);
+            & > a {
+                position: absolute;
+                text-decoration: none;
+                font-family: "Raleway", sans-serif;
+                font-size: 22px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: rgb(255, 255, 255);
             }
         }
     }
 
-    .currency_wrap{
+    .currency_wrap {
         position: absolute;
         top: 18px;
         right: 10px;
@@ -73,47 +73,46 @@ header{
     }
 }
 
-
 // Скрытие мобильного меню и начало отображения лого
-@media screen and (min-width: 501px){
-    header{ 
-        .nav__wraper{
-            // height: 30px;            
-            .logo__border{
-                .mobile_menu{
-                display: none;
+@media screen and (min-width: 501px) {
+    header {
+        .nav__wraper {
+            // height: 30px;
+            .logo__border {
+                .mobile_menu {
+                    display: none;
                 }
             }
         }
     }
 }
 
-@media screen and (max-width: 1000px){
-    header{ 
-        .nav__wraper{
+@media screen and (max-width: 1000px) {
+    header {
+        .nav__wraper {
             max-width: 90%;
         }
-        .currency_wrap{
+        .currency_wrap {
             display: none;
         }
     }
 }
 
-@media screen and (max-width: 500px){
-    header{ 
-        .nav__wraper{
+@media screen and (max-width: 500px) {
+    header {
+        .nav__wraper {
             height: 30px;
-            .nav{
+            .nav {
                 display: none;
-            }  
-            
+            }
+
             // Скрытие лого чтоб поставить мобильное меню
-            .logo__border{
+            .logo__border {
                 margin-top: 31px;
                 height: 40px;
                 width: 40px;
-                &>a{
-                display: none;
+                & > a {
+                    display: none;
                 }
                 // Мобильное меню
                 #menu-checkbox {
@@ -135,7 +134,7 @@ header{
                 .main-menu li {
                     /* пункты меню расположены вертикально */
                     font-size: 20px;
-                    font-family: 'Exo 2', sans-serif;
+                    font-family: "Exo 2", sans-serif;
                     display: block;
                     text-align: center;
                 }
@@ -156,17 +155,13 @@ header{
                     /* не забываем явно указать каким должен быть курсор */
                     cursor: pointer;
                     background-color: rgba(29, 23, 23, 0);
-                    color: #fff;
-                    // border: 1px solid red;
-                    margin-top: -11px;
+                    -webkit-text-fill-color: rgb(255, 255, 255);
                 }
                 .toggle-button:after {
                     /* получаем данные из атрибута data-open в html */
                     content: attr(data-open);
                     display: block;
                     font-size: 30px;
-                    margin: 10px 0;
-                    // padding: 10px 30px;
                 }
                 #menu-checkbox:checked + nav[role="navigation"] .main-menu {
                     /* когда чекбокс активен меню становится видимым */
@@ -174,11 +169,17 @@ header{
                 }
                 #menu-checkbox:checked + nav[role="navigation"] .toggle-button:after {
                     content: attr(data-close);
+                    color: rgba(255, 255, 255, 0);
+                    background-image: url(../img/icon/cross.svg);
+                    background-size: 50%;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    height: 40px;
                 }
                 // Конец мобильного меню
             }
         }
     }
-
-    
 }
+
+

@@ -43,6 +43,7 @@ footer .footer__right a {
   }
   footer .footer__left img {
     width: 40px;
+    cursor: pointer;
   }
   footer .footer__right {
     margin-top: -50px;
