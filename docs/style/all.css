@@ -1,0 +1,22 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+body::-webkit-scrollbar {
+  background-color: #ddd;
+  width: 7px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #00571f;
+  border-radius: 8px;
+}
+body a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=all.css.map */

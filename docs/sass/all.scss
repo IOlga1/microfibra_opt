@@ -1,0 +1,23 @@
+@import "variables.scss";
+
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    &::-webkit-scrollbar {
+        background-color: #ddd;
+        // border-radius: 8px;
+        width: 7px;
+        // overflow: hidden;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $darkGreen;
+        border-radius: 8px;
+    }
+    a {
+        text-decoration: none;
+    }
+    overflow-x: hidden !important;
+}

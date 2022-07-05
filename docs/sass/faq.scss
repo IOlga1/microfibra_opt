@@ -1,0 +1,102 @@
+@import "variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Open+Sans:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+.faq_main_wrap {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/banner-correct2.jpg);
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.faq_title_wrap {
+    text-align: center;
+    padding-left: 35px;
+    font-size: 36px;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.63);
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.faq_content_wrap {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq_item {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50px;
+    padding: 3vh 5vh;
+    transition: all 250ms ease;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.853);
+        transition: all 250ms ease;
+    }
+}
+
+details {
+    font-family: "Raleway", sans-serif;
+
+    & :nth-child(1) {
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+        font-size: 21px;
+        user-select: none;
+    }
+    & :nth-child(2) {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+details > summary {
+    list-style: none;
+}
+details summary:before {
+    content: "►";
+    margin-right: 20px;
+    color: green;
+}
+details[open] summary:before {
+    content: "▼";
+}
+
+
+@media screen and (max-width: 1070px) {
+    .faq_content_wrap {
+        width: 90%;
+
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .faq_content_wrap {
+        width: 97%;
+
+    }
+}
+
+@media screen and (max-width: 550px) {
+    details {    
+        & :nth-child(1) {
+            font-size: 17px;
+            user-select: none;
+        }
+        & :nth-child(2) {
+            font-size: 16px;
+        }
+    }
+}

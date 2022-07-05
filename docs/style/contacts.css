@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Open+Sans:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+.contact_content_wrap {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 60vh;
+  background-image: url(../img/banner-correct2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.contact_content_wrap .adress_area {
+  background-color: rgba(255, 255, 255, 0.659);
+  z-index: 2;
+  width: 510px;
+  height: 506px;
+  box-shadow: -4px 9px 36px 20px rgba(107, 107, 107, 0.183);
+  border-image: linear-gradient(#00571f, #53e101);
+}
+.contact_content_wrap .map_area {
+  border: 3px solid #00571f;
+  box-shadow: -4px 9px 36px 20px rgba(107, 107, 107, 0.183);
+  border-image: linear-gradient(#00571f, #53e101);
+  border-image-slice: 1;
+  height: 500px;
+}
+
+.contact_title,
+.about_company_foto {
+  padding: 110px 90px;
+  width: 50%;
+}
+.contact_title img,
+.about_company_foto img {
+  max-width: 100%;
+}
+
+.contact_title :nth-child(1) {
+  margin-top: 2px;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.853);
+}
+
+.contact_title hr {
+  border: none;
+  background-color: #00571f;
+  height: 2px;
+  width: 60px;
+  margin-top: -15px;
+}
+
+.contact_ico_text_wrap {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  gap: 10px;
+}
+.contact_ico_text_wrap .contact_item {
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+}
+.contact_ico_text_wrap .contact_item > p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  white-space: nowrap;
+}
+.contact_ico_text_wrap .contact_item > a {
+  height: 30px;
+}
+.contact_ico_text_wrap .contact_item > a > img {
+  height: 100%;
+}
+.contact_ico_text_wrap .contact_item :nth-child(3) {
+  height: 32px;
+}
+
+@media screen and (max-width: 1030px) {
+  .contact_content_wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 510px) {
+  .contact_content_wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .contact_content_wrap .map_area {
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .contact_content_wrap .map_area {
+    display: none;
+  }
+
+  .contact_title {
+    padding: 110px 115px;
+  }
+}
+
+/*# sourceMappingURL=contacts.css.map */
