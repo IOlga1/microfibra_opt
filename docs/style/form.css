@@ -22,7 +22,11 @@
   gap: 35px;
   width: auto;
 }
+.block_form .right_form_block .form_g :focus, .block_form .right_form_block .form_g :active {
+  outline: none;
+}
 .block_form .right_form_block .form_g .form_checkboxes_wrap {
+  font-size: 16px;
   width: auto;
   display: flex;
   gap: 30px;
