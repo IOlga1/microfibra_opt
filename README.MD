@@ -1,4 +1,4 @@
-# Microfibra_opt-shop
+# Microfibra_opt shop
 [If you wanna test - CLICK HERE](https://iolga1.github.io/microfibra_opt/)
 
 ## Key features of the App
@@ -17,7 +17,7 @@
 ![](/docs/img/screen.png)
 
 
-### If other developers want to dig into my the code...
+### If other developers want to digging into my code...
 1. git clone
 2. npm install
 3. open with live server
