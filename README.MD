@@ -10,7 +10,7 @@
 + feedback form (fully configured: front/back => the app must be place in normal hosting)
 + OpenGraph
 + loader
-+ SVG (all of logo and icons)
++ SVG (all logos and icons)
 + CSS-animation
 
 
